@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f3f6ff;
+    background: #e8f5e9; /* Verde muy suave */
     margin: 0;
     padding: 0;
 }
@@ -9,21 +9,23 @@ body {
     max-width: 800px;
     margin: 30px auto;
     background: #ffffff;
-    border-radius: 8px;
-    padding: 20px 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    border-left: 6px solid #66bb6a; /* Detalle verde */
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50;
+    color: #2e7d32; /* Verde oscuro */
+    margin-bottom: 20px;
 }
 
 label {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    color: #34495e;
+    color: #2e7d32; /* Verde fuerte */
 }
 
 input[type="text"],
@@ -33,31 +35,44 @@ select,
 textarea,
 input[type="date"] {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    border-radius: 6px;
+    border: 1px solid #a5d6a7; /* Verde suave */
+    background: #f1f8f4; /* Fondo claro verde */
+    color: #2e7d32;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #66bb6a;
+    box-shadow: 0 0 5px rgba(102,187,106,0.5);
+    outline: none;
 }
 
 button {
     margin-top: 20px;
-    padding: 10px 20px;
-    background: #2980b9;
-    color: #fff;
+    padding: 12px 20px;
+    background: #2e7d32; /* Verde oscuro */
+    color: #ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
 }
 
 button:hover {
-    background: #1c5981;
+    background: #1b5e20; /* Verde más oscuro */
 }
 
 .footer {
     margin-top: 25px;
     font-size: 0.9rem;
     text-align: center;
-    color: #888;
-    border-top: 1px solid #ddd;
+    color: #2e7d32;
+    border-top: 1px solid #a5d6a7;
     padding-top: 10px;
 }
