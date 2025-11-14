@@ -87,7 +87,7 @@ $areas = $stmtAreas->fetchAll(PDO::FETCH_ASSOC);
     </form>
 
     <div class="footer">
-        Información de contacto: info@itech.com | Tel: +507 6000-0000 <br>
+        Información de contacto: williamcorne17@gmail.com | Tel: +507 6582-7570 <br>
         © 2025 iTECH. All rights reserved.
     </div>
 </div>
